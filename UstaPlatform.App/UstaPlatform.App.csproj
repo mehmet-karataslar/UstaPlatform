@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\UstaPlatform.Domain\UstaPlatform.Domain.csproj" />
+    <ProjectReference Include="..\UstaPlatform.Pricing\UstaPlatform.Pricing.csproj" />
+    <ProjectReference Include="..\UstaPlatform.Services\UstaPlatform.Services.csproj" />
+    <ProjectReference Include="..\UstaPlatform.Infrastructure\UstaPlatform.Infrastructure.csproj" />
+    <ProjectReference Include="..\UstaPlatform.Helpers\UstaPlatform.Helpers.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
